@@ -1,6 +1,6 @@
 // DARK MODE TOGGLE SCRIPT
 
-const toggleBtn = document.getElementById("theme-toggle");
+const btn = document.getElementById("theme-toggle");
 const body = document.body;
 
 if (localStorage.getItem("theme") === "dark") {
@@ -8,11 +8,11 @@ if (localStorage.getItem("theme") === "dark") {
   toggleBtn.textContent = "Light Mode";
 }
 
-toggleBtn.addEventListener("click", () => {
+btn.addEventListener("click", () => {
   body.classList.toggle("dark");
 
   if (body.classList.contains("dark")) {
-    toggleBtn.textContent = "Light Mode";
+    btn.textContent = "Light Mode";
     localStorage.setItem("theme", "dark");
   } else {
     toggleBtn.textContent = "Dark Mode";

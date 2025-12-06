@@ -1357,7 +1357,6 @@ body.dark .step-card ,
 body.dark .cta-section ,
 body.dark .cta-section .btn-secondary,
 body.dark .approach,
-body.dark .approach .approach-card,
 body.dark .insight,
 body.dark .map-section{
     background: #1e293b;
@@ -1374,6 +1373,16 @@ body.dark .insight{
 }
 body.dark .form-group label{
     color: white;
+}
+body.dark .approach .approach-card p{
+    color: black;
+}
+body.dark .approach .approach-card .btn{
+    color: gray;
+    border-color: black;
+}
+body.dark .approach .approach-card .btn:hover{
+    color: black;
 }
 
 /* Typography fixes */
