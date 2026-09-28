@@ -24,7 +24,7 @@ No build tools or package installation are required. Clone or download this repo
 
 This project is deployed on Vercel. Add your public Vercel URL below:
 
-- **Live site:** [Add your Vercel URL](https://vercel.com/)
+- **Live site:** capstone-project-ds05jsyj8.vercel.app
 - **GitHub repository:** [HridayRaj02/Capstone-Project](https://github.com/HridayRaj02/Capstone-Project)
 
 ## Note
